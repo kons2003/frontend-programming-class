@@ -1,0 +1,43 @@
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+      div#app {
+        padding: 30px;
+        margin: 30px auto;
+        width: 1000px;
+      }
+      table {
+        border-collapse: collapse;
+        margin: auto;
+      }
+      td {
+        padding: 15px;
+        border: 1px solid black;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+        <table>
+          <tbody>
+            <tr >
+              <td v-for="i in 8">
+                <span v-for="j in 9">
+                    {{ i+1 }} * {{ j }} = {{ (i+1) * j }}<br>
+                </span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    <script type="text/javascript">
+      let app = {
+        
+      };
+      Vue.createApp(app).mount("#app");
+    </script>
+  </body>
+</html>

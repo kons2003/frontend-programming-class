@@ -1,0 +1,37 @@
+{
+  "relationships": [
+    { "id": 1, "title": "친구" },
+    { "id": 2, "title": "가족" },
+    { "id": 3, "title": "직장" }
+  ],
+  "persons": [
+    {
+      "id": 1,
+      "name": "홍길동",
+      "phone": "010-333-3333",
+      "email": "hong3@skhu.net",
+      "relationshipId": 1
+    },
+    {
+      "id": 2,
+      "name": "임꺽정",
+      "phone": "010-444-4444",
+      "email": "lim4@skhu.net",
+      "relationshipId": 2
+    },
+    {
+      "id": 3,
+      "name": "성춘향",
+      "phone": "010-333-5555",
+      "email": "seong5@skhu.net",
+      "relationshipId": 3
+    },
+    {
+      "id": 4,
+      "name": "장길산",
+      "phone": "010-333-6666",
+      "email": "jang6@skhu.net",
+      "relationshipId": 1
+    }
+  ]
+}
